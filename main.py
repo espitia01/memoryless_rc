@@ -100,6 +100,7 @@ for i, predictions in enumerate(models_predictions):
     fig.colorbar(ax[i][2].get_images()[0], ax=ax[i][2], location='right')
 
 plt.tight_layout()
+plt.savefig("img1.png")
 plt.show()
 
 
